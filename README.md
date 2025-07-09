@@ -23,9 +23,9 @@ Simulates the core cryptographic idea of 1-out-of-2 OT using ECC:
 - Sender generates an **ephemeral key**: `C₁ = kG`
 - Receiver generates a **fake public key** from a hash (`hash-to-point`)
 - Sender encrypts with this key:  
-  \[
-  C_2 = k \cdot \text{PK}_{\text{fake}}
-  \]
+ \\[
+   C_2 = k \cdot \text{PK}_{\text{fake}}
+   \\]
 - Receiver can't decrypt without `k` or private key knowledge
 
 #### ✅ Security
